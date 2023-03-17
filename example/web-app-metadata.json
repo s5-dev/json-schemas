@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.sfive.net/web-app-metadata.json",
+    "type": "web_app",
+    "name": "JSON schemas",
+    "tryFiles": [
+        "index.html"
+    ],
+    "errorPages": {
+        "404": "/404.html"
+    },
+    "extraMetadata": {},
+    "paths": {
+        "cid.json": {
+            "cid": "uJh9jAcNhEciIXEpZaUC5ScbnaRo7m69urYDL0Jzr7bSjTR0B",
+            "contentType": "application/json"
+        },
+        "media-metadata.json": {
+            "cid": "uJh-TcT3syDJKUCp2Y3QexX1qk_7xrCRdGjOGxgheLz_Ry8sa",
+            "contentType": "application/json"
+        },
+        "extra-metadata.json": {
+            "cid": "uJh_UiQG5oqOnwzwdsx9L9NYQPLodLE9ZIEK6cQ1MxdUgbR8J",
+            "contentType": "application/json"
+        },
+        "web-app-metadata.json": {
+            "cid": "uJh-77lY4QMKN6iwPt39ifJ7GUMPLeTd5U-zCv0ttArmV-HkJ",
+            "contentType": "application/json"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "$id": "https://schema.sfive.net/web-app-metadata.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Metadata format used for web apps stored on S5",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "const": "https://schema.sfive.net/web-app-metadata.json"
+        },
+        "type": {
+            "const": "web_app"
+        },
+        "name": {
+            "type": "string",
+            "maxLength": 255,
+            "description": "Name of this Web App"
+        },
+        "tryFiles": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "description": "If a requested path isn't found in the paths map directly, the web server will iterate through the requested path combined with every path in this list."
+        },
+        "errorPages": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^\\d{3}$"
+            },
+            "additionalProperties": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "maxProperties": 32,
+            "description": "If a requested path isn't found in the paths map or using tryFiles, the path referenced by the key \"404\" is loaded."
+        },
+        "paths": {
+            "type": "object",
+            "propertyNames": {
+                "maxLength": 255
+            },
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "cid": {
+                        "$ref": "https://schema.sfive.net/cid.json"
+                    },
+                    "contentType": {
+                        "type": "string",
+                        "pattern": "^(application|audio|font|example|image|message|model|multipart|text|video)\\/[\\w+-.]{1,127}$"
+                    }
+                },
+                "required": [
+                    "cid"
+                ],
+                "additionalProperties": false
+            },
+            "maxProperties": 65536,
+            "description": "Maps paths to CIDs. If a path is requested, this map is used to look it up."
+        },
+        "extraMetadata": {
+            "$ref": "https://schema.sfive.net/extra-metadata.json"
+        }
+    },
+    "required": [
+        "type",
+        "paths"
+    ],
+    "additionalProperties": false
+}

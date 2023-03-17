@@ -1,0 +1,689 @@
+{
+    "$schema": "https://schema.sfive.net/media-metadata.json",
+    "type": "media",
+    "name": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+    "details": {
+        "duration": 635000
+    },
+    "parents": [
+        {
+            "cid": "z3iFGXJzaHTVYgzh1QdkD5eN7nV1RxjxrpzMQJu2xexszroV",
+            "type": 1
+        }
+    ],
+    "mediaTypes": {
+        "audio": [
+            {
+                "cid": "uJh8YJWrqf-ORJDA-0a9IT9_g387f7bnGLf9r2KdWbZIqb3RGJQ",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 22050,
+                "bitrate": 30791,
+                "audioChannels": 2,
+                "acodec": "mp4a.40.5",
+                "container": "m4a_dash",
+                "initRange": "0-640",
+                "indexRange": "641-1440"
+            },
+            {
+                "cid": "uJh9PPTmRMugEZ5xl8VG-vvkihgEAmtACw1SZbX2QmpwStEP1KA",
+                "subtype": "webm",
+                "ext": "webm",
+                "asr": 48000,
+                "bitrate": 33838,
+                "audioChannels": 2,
+                "acodec": "opus",
+                "container": "webm_dash",
+                "initRange": "0-258",
+                "indexRange": "259-1342"
+            },
+            {
+                "cid": "uJh9crhzzHnmjqmYu8BIn2qLL9KWUuQMWXUyAkEzH23BlEdIQOw",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 22050,
+                "bitrate": 48791,
+                "audioChannels": 2,
+                "acodec": "mp4a.40.5",
+                "container": "m4a_dash",
+                "initRange": "0-640",
+                "indexRange": "641-1440"
+            },
+            {
+                "cid": "uJh-9_83k8I5XmvqO5584TAkHkjaDmws3Lo62GaSneR6Kv6z8Ow",
+                "subtype": "webm",
+                "ext": "webm",
+                "asr": 48000,
+                "bitrate": 49559,
+                "audioChannels": 2,
+                "acodec": "opus",
+                "container": "webm_dash",
+                "initRange": "0-258",
+                "indexRange": "259-1342"
+            },
+            {
+                "cid": "uJh-59I1laF5ROhp-ebfUogK9mBbk5rkYWtn4_mZTDItTIvshTw",
+                "subtype": "webm",
+                "ext": "webm",
+                "asr": 48000,
+                "bitrate": 65377,
+                "audioChannels": 2,
+                "acodec": "opus",
+                "container": "webm_dash",
+                "initRange": "0-258",
+                "indexRange": "259-1343"
+            },
+            {
+                "cid": "uJh9V1IamR4YeUTvcur4GMdqgp0X_EdoRkuNvS1HnTJINg2Ex7A",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 24000,
+                "bitrate": 195102,
+                "audioChannels": 6,
+                "acodec": "mp4a.40.5",
+                "container": "m4a_dash",
+                "initRange": "0-640",
+                "indexRange": "641-1440"
+            },
+            {
+                "cid": "uJh-v65xPYcO5bWv9jfWcXvAb9I62OiXBS3V82bxsvQ3aPa26nA",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 44100,
+                "bitrate": 129480,
+                "audioChannels": 2,
+                "acodec": "mp4a.40.2",
+                "container": "m4a_dash",
+                "initRange": "0-631",
+                "indexRange": "632-1431"
+            },
+            {
+                "cid": "uJh-OfKVbFSfHB5oEZRLiGqbN4tiN_FwiGIpSGgRbkx_TDGKsmw",
+                "subtype": "webm",
+                "ext": "webm",
+                "asr": 48000,
+                "bitrate": 128612,
+                "audioChannels": 2,
+                "acodec": "opus",
+                "container": "webm_dash",
+                "initRange": "0-258",
+                "indexRange": "259-1343"
+            },
+            {
+                "cid": "uJh8dsx8v_vaALip2Rg4gHd8XMKUwpth58idxwITa58yN62720AE",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 48000,
+                "bitrate": 384104,
+                "audioChannels": 6,
+                "acodec": "ac-3",
+                "container": "m4a_dash",
+                "initRange": "0-589",
+                "indexRange": "590-1389"
+            },
+            {
+                "cid": "uJh_UZtNM-x79KHE-sBZ-9JQ7VNAAM-pFzTpzw6SRPU1SLXD20AE",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 48000,
+                "bitrate": 384104,
+                "audioChannels": 6,
+                "acodec": "ec-3",
+                "container": "m4a_dash",
+                "initRange": "0-591",
+                "indexRange": "592-1391"
+            },
+            {
+                "cid": "uJh8okIzMziikgDT8T6VbkLNgggj7bchRuxYqPH4SgatFO6B51QE",
+                "subtype": "mp4",
+                "ext": "m4a",
+                "asr": 48000,
+                "bitrate": 387851,
+                "audioChannels": 6,
+                "acodec": "mp4a.40.2",
+                "container": "m4a_dash",
+                "initRange": "0-631",
+                "indexRange": "632-1431"
+            }
+        ],
+        "image": [
+            {
+                "cid": "uJh8PC7iEZVKgxjOBgEc1bqPSfrBpvaaOG6DWWA7eQGSLzyOnAQ",
+                "subtype": "jpeg",
+                "role": "thumbnail",
+                "ext": "jpg",
+                "height": 720,
+                "width": 1278
+            },
+            {
+                "cid": "uJh_NIGyc9tgHhibp9IYTmGfOgTv0QTpHzSxBqO34HVZoCB4RAg",
+                "subtype": "webp",
+                "role": "thumbnail",
+                "ext": "webp",
+                "height": 720,
+                "width": 1278
+            },
+            {
+                "cid": "uJh-DrZLmIySXVVcHS9EgomhKGGp442qKybl2tFuMUDawf4pC",
+                "subtype": "jpeg",
+                "role": "thumbnail",
+                "ext": "jpg",
+                "height": 180,
+                "width": 320
+            },
+            {
+                "cid": "uJh_ah6MYNXMErEN2hltvnLwxnRRNCvlLL9nKg_IiGVciYJxC",
+                "subtype": "webp",
+                "role": "thumbnail",
+                "ext": "webp",
+                "height": 180,
+                "width": 320
+            },
+            {
+                "cid": "uJh9QkQMFBWpLL8zp65Ll47zOQRrawbVpKpFRSUk8Sa72RHqt",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 124023,
+                "rows": 5,
+                "columns": 5,
+                "index": 0
+            },
+            {
+                "cid": "uJh9VlVxZhPkooAik8LPXud5dMze_3u0T4GiqmThYiFHlYerH",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 124023,
+                "rows": 5,
+                "columns": 5,
+                "index": 1
+            },
+            {
+                "cid": "uJh8u-7l1UuDvIRVBgmG54jpFG99NeBwr7M8GbwXg3Hc2WbLi",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 124023,
+                "rows": 5,
+                "columns": 5,
+                "index": 2
+            },
+            {
+                "cid": "uJh9OIJtuRX4c_SXI75SypyggciwvRWJObDAUaZyOPoAoAWLd",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 124023,
+                "rows": 5,
+                "columns": 5,
+                "index": 3
+            },
+            {
+                "cid": "uJh-x1FH5V0vz1p_aknV05vJ8_vMbMqMMtmjjaQ3447G970yz",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 124023,
+                "rows": 5,
+                "columns": 5,
+                "index": 4
+            },
+            {
+                "cid": "uJh9Vp4rPlZk9xXhNbBN-Qtv7UIPKWUvHcEo9lgSkyOlOT-wG",
+                "subtype": "webp",
+                "role": "storyboard",
+                "ext": "webp",
+                "height": 90,
+                "width": 160,
+                "duration": 14883,
+                "rows": 5,
+                "columns": 5,
+                "index": 5
+            }
+        ],
+        "text": [
+            {
+                "subtype": "plain",
+                "role": "title",
+                "ext": "yt-title.txt",
+                "value": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film"
+            },
+            {
+                "cid": "uJh_IFrQNjmo4tzPr-L2sMEvfKDMDLJAJ4D1qvHVDw1gNXbsB",
+                "subtype": "plain",
+                "role": "description",
+                "ext": "yt-description.txt"
+            },
+            {
+                "subtype": "plain",
+                "role": "summary",
+                "ext": "txt",
+                "value": "Enjoy this UHD High Frame rate version of one of the iconic short films produced by Blender Institute!\nLearn more about the project here http://bbb3d.renderfarm…"
+            }
+        ],
+        "video": [
+            {
+                "cid": "uJh8JM5X3WxHEqkQ1HyD36mEM1_b4ytTqU2HZ5WneyLXK790IJw",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 144,
+                "width": 256,
+                "fps": 15,
+                "bitrate": 32252,
+                "vcodec": "avc1.4d400b",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-738",
+                "indexRange": "739-2330"
+            },
+            {
+                "cid": "uJh-MAY6S8KzIAtlkeylRfeF4nbxNbjtDrVrfY3ULtx7fRv3eHQ",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 144,
+                "width": 256,
+                "fps": 15,
+                "bitrate": 24681,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-217",
+                "indexRange": "218-2414"
+            },
+            {
+                "cid": "uJh_Jg4LarQkXFmv47AWRcrnObG1YpE6bfviMBh53q1jh6OutTg",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 144,
+                "width": 256,
+                "fps": 30,
+                "bitrate": 65006,
+                "vcodec": "av01.0.00M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh8xEBKn2HkV66eq0gZNSJx2VqwcfnrmbnzU2P-IVNBuAekkSQ",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 144,
+                "width": 256,
+                "fps": 30,
+                "bitrate": 60432,
+                "vcodec": "avc1.4d400c",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-738",
+                "indexRange": "739-2330"
+            },
+            {
+                "cid": "uJh9fUZU5gUpGstIzw5L3CHGqS2l4KqHgAexTSQxucLEsEKVQXg",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 144,
+                "width": 256,
+                "fps": 30,
+                "bitrate": 77924,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-218",
+                "indexRange": "219-2418"
+            },
+            {
+                "cid": "uJh-c4wa8uRA194F6r066DHTuOLi46R73NT-r-hgHr1JjASPakQ",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 240,
+                "width": 426,
+                "fps": 30,
+                "bitrate": 120505,
+                "vcodec": "av01.0.00M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh-5cGllPSn3jxdqy11nLTJLzU0tNAPmNNOTEN5YMIy6ru6InQ",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 240,
+                "width": 426,
+                "fps": 30,
+                "bitrate": 130157,
+                "vcodec": "avc1.4d4015",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-739",
+                "indexRange": "740-2331"
+            },
+            {
+                "cid": "uJh_T_DQWPbNvVOvx5xu0zY28ldGy_9-1OrUxSqsV4aOGsUW_rw",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 240,
+                "width": 426,
+                "fps": 30,
+                "bitrate": 145204,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-218",
+                "indexRange": "219-2418"
+            },
+            {
+                "cid": "uJh9ftmFT4sBUDyz6hZkLnJZcYC_k0fz8p_lWdJ5MmM02uVECHAE",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 360,
+                "width": 640,
+                "fps": 30,
+                "bitrate": 234652,
+                "vcodec": "av01.0.01M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh-OaDdZafWoRK4nXx7-MGTA8qxKDctbUw-Xfv6Cpxi7DJePXAE",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 360,
+                "width": 640,
+                "fps": 30,
+                "bitrate": 287986,
+                "vcodec": "avc1.4d401e",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-740",
+                "indexRange": "741-2332"
+            },
+            {
+                "cid": "uJh9dvRPPMtgPVn8TMjUjJHca4jJiNfNz9H_6p3hspfXGWpmf-AE",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 360,
+                "width": 640,
+                "asr": 44100,
+                "fps": 30,
+                "bitrate": 416935,
+                "audioChannels": 2,
+                "vcodec": "avc1.42001E",
+                "acodec": "mp4a.40.2",
+                "dynamicRange": "SDR"
+            },
+            {
+                "cid": "uJh9l-PRJvjvF0p2UaYu-Gn1k-cQj2ATuOfctvFv36FLPrDSoZwE",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 360,
+                "width": 640,
+                "fps": 30,
+                "bitrate": 297153,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-219",
+                "indexRange": "220-2458"
+            },
+            {
+                "cid": "uJh9xVg8yvxLMGzl2wM9p43J2x_ZH8M178lcf4N7xh4YYO_907gE",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 480,
+                "width": 854,
+                "fps": 30,
+                "bitrate": 408527,
+                "vcodec": "av01.0.04M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh_d8Nl4EAHYa-t9gkIKpcCc6zA8AMDJ4Q7m-t-lZo5pRHvoZAI",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 480,
+                "width": 854,
+                "fps": 30,
+                "bitrate": 506393,
+                "vcodec": "avc1.4d401f",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-740",
+                "indexRange": "741-2332"
+            },
+            {
+                "cid": "uJh_xA5V9grfBvsoXN7UanlriFtXD_OEfa7riv1DtOpYgHRqtUwI",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 480,
+                "width": 854,
+                "fps": 30,
+                "bitrate": 492155,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-219",
+                "indexRange": "220-2494"
+            },
+            {
+                "cid": "uJh9dvBupLgWG3p8CGJ1VR8PLnZvJQedolo8ktb027PrlTT5LvAY",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 720,
+                "width": 1280,
+                "asr": 44100,
+                "fps": 30,
+                "bitrate": 1424645,
+                "audioChannels": 2,
+                "vcodec": "avc1.64001F",
+                "acodec": "mp4a.40.2",
+                "dynamicRange": "SDR"
+            },
+            {
+                "cid": "uJh9h7Zv6YZy8d7qMIvzbduDmHNLH-g-VCqp8S0oKtFOD6Dw_UAU",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 720,
+                "width": 1280,
+                "fps": 60,
+                "bitrate": 1123856,
+                "vcodec": "av01.0.08M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh_6Qb00LlCMbW8iZw3b4O4WPjOkBdlurPBP52btD2JIfYDRnQo",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 720,
+                "width": 1280,
+                "fps": 60,
+                "bitrate": 2245502,
+                "vcodec": "avc1.4d4020",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-739",
+                "indexRange": "740-2331"
+            },
+            {
+                "cid": "uJh_4BMIxKac1K58uh20qe4GURSDdzvylr3MffGtwvlOC8vNYGwc",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 720,
+                "width": 1280,
+                "fps": 60,
+                "bitrate": 1503172,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-218",
+                "indexRange": "219-2529"
+            },
+            {
+                "cid": "uJh_7h-WR-uQ-d3t6FdoFZjt2JrxScpSydoe_KIAxQ3GB015Hbwk",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 1080,
+                "width": 1920,
+                "fps": 60,
+                "bitrate": 1995539,
+                "vcodec": "av01.0.09M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-699",
+                "indexRange": "700-2291"
+            },
+            {
+                "cid": "uJh-Peq3xeORAt-DvRmk10vSQyvLY1vYLqYIZWvDWiY_sQnjtDhI",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 1080,
+                "width": 1920,
+                "fps": 60,
+                "bitrate": 3819532,
+                "vcodec": "avc1.64002a",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-741",
+                "indexRange": "742-2333"
+            },
+            {
+                "cid": "uJh9pFZkRZAgMEra5nRgl0BhZJP-79E1C6dh3nRDeamdKIO_1kAs",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 1080,
+                "width": 1920,
+                "fps": 60,
+                "bitrate": 2446390,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-218",
+                "indexRange": "219-2539"
+            },
+            {
+                "cid": "uJh8CBKHkF8KDHIN-FbZvaljLSiNwsmmtidbVbG6ZbhYcf67AGhk",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 1440,
+                "width": 2560,
+                "fps": 60,
+                "bitrate": 5309879,
+                "vcodec": "av01.0.12M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-700",
+                "indexRange": "701-2292"
+            },
+            {
+                "cid": "uJh8WTMT4z4OOmx5RLlbHEPos_22xOEjaa7kHcamSi7GXL2euNh8",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 1440,
+                "width": 2560,
+                "fps": 60,
+                "bitrate": 6602021,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-219",
+                "indexRange": "220-2546"
+            },
+            {
+                "cid": "uJh8wz0BvT1dEvPtsmP9PsUQV59Wz5a3_u_bvG6denTvYDLUzdzY",
+                "subtype": "mp4",
+                "ext": "mp4",
+                "height": 2160,
+                "width": 3840,
+                "fps": 60,
+                "bitrate": 11520083,
+                "vcodec": "av01.0.13M.08",
+                "container": "mp4_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-700",
+                "indexRange": "701-2292"
+            },
+            {
+                "cid": "uJh9HlpMAkwc3YGnUflReWWPwj6Vtg3ihGyXFYNe_KvJbGl_fj1s",
+                "subtype": "webm",
+                "ext": "webm",
+                "height": 2160,
+                "width": 3840,
+                "fps": 60,
+                "bitrate": 19366376,
+                "vcodec": "vp9",
+                "container": "webm_dash",
+                "dynamicRange": "SDR",
+                "initRange": "0-219",
+                "indexRange": "220-2548"
+            }
+        ],
+        "application": [
+            {
+                "cid": "uJh80_sSHRXnVh3kj7xALF3MMzm789C_wyNEiZUnJ93OtuLU4",
+                "subtype": "dash+xml",
+                "role": "dash_manifest",
+                "ext": "mpd"
+            }
+        ]
+    },
+    "extraMetadata": {
+        "licenses": [
+            "CC-BY-3.0"
+        ],
+        "wikidataClaims": {
+            "P31": "Q63412991",
+            "P1651": "aqz-KE-bpKQ",
+            "P2397": "UCSMOQeBJ2RAnuFungnQOxLg",
+            "P1476": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film"
+        },
+        "categories": [
+            "Film & Animation"
+        ],
+        "tags": [
+            "blender",
+            "animation",
+            "4K",
+            "UHD",
+            "Big Buck Bunny (Film)",
+            "Blender Foundation (Nonprofit Organization)",
+            "Short Film (Film Genre)",
+            "4K Resolution"
+        ],
+        "sourceUris": [
+            "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+        ],
+        "timestamp": 1415577600000,
+        "basicMediaMetadata": {
+            "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+            "artist": "Blender",
+            "date": "20141110",
+            "comment": "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+        },
+        "viewTypes": [
+            "video",
+            "audio"
+        ],
+        "updateCID": "zrjBw998vzh2oZTXj6cFzQSwmKX2mDCioVn1W2YppZL68kK"
+    }
+}

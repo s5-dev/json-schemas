@@ -1,0 +1,7 @@
+{
+    "$id": "https://schema.sfive.net/cid.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "CID format used by S5 (has a multibase prefix)",
+    "type": "string",
+    "pattern": "^(u[\\w_-]{0,63}|z[1-9A-HJ-NP-Za-km-z]{42,63}|b[A-Za-z2-7]{50,63})$"
+}

@@ -1,0 +1,198 @@
+{
+    "$id": "https://schema.sfive.net/media-metadata.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Very flexible metadata format used for almost any more advanced content/media structure. Can be used for videos, images, music, podcasts, profiles, lists and more!",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "const": "https://schema.sfive.net/media-metadata.json"
+        },
+        "type": {
+            "const": "media"
+        },
+        "name": {
+            "type": "string",
+            "maxLength": 255,
+            "description": "Name of this Media object"
+        },
+        "details": {
+            "type": "object",
+            "properties": {
+                "duration": {
+                    "type": "integer",
+                    "description": "Duration of this media object in milliseconds (can contain video or audio duration, but also more abstract durations like estimated read time)",
+                    "minimum": 0
+                }
+            },
+            "additionalProperties": false
+        },
+        "parents": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "cid": {
+                        "$ref": "https://schema.sfive.net/cid.json"
+                    },
+                    "type": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "maxItems": 255
+        },
+        "mediaTypes": {
+            "type": "object",
+            "propertyNames": {
+                "type": "string",
+                "enum": [
+                    "application",
+                    "audio",
+                    "font",
+                    "example",
+                    "image",
+                    "message",
+                    "model",
+                    "multipart",
+                    "text",
+                    "video"
+                ]
+            },
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "subtype": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "role": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "ext": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "cid": {
+                            "$ref": "https://schema.sfive.net/cid.json"
+                        },
+                        "height": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "width": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "languages": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "maxLength": 16
+                            },
+                            "maxItems": 255
+                        },
+                        "asr": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "fps": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "bitrate": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "audioChannels": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "vcodec": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "acodec": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "container": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "dynamicRange": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "charset": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "value": {
+                            "type": "string",
+                            "maxLength": 65536
+                        },
+                        "duration": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "rows": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "columns": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "index": {
+                            "type": "integer",
+                            "minimum": 0
+                        },
+                        "initRange": {
+                            "type": "string",
+                            "maxLength": 255
+                        },
+                        "indexRange": {
+                            "type": "string",
+                            "maxLength": 255
+                        }
+                    },
+                    "required": [
+                        "subtype"
+                    ],
+                    "additionalProperties": false
+                },
+                "maxItems": 255
+            }
+        },
+        "links": {
+            "type": "object",
+            "properties": {
+                "count": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "head": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "https://schema.sfive.net/cid.json"
+                    },
+                    "maxItems": 255
+                }
+            },
+            "additionalProperties": false
+        },
+        "extraMetadata": {
+            "$ref": "https://schema.sfive.net/extra-metadata.json"
+        }
+    },
+    "required": [
+        "type",
+        "name",
+        "mediaTypes"
+    ],
+    "additionalProperties": false
+}

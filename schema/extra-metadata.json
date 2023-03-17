@@ -1,0 +1,86 @@
+{
+    "$id": "https://schema.sfive.net/extra-metadata.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Can be added to all other metadata formats to add (mostly optional) extra metadata",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "const": "https://schema.sfive.net/extra-metadata.json"
+        },
+        "licenses": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "maxItems": 255
+        },
+        "wikidataClaims": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^P\\d+$"
+            },
+            "additionalProperties": {
+                "type": "string",
+                "maxLength": 1023
+            }
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "maxItems": 255
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "maxItems": 255
+        },
+        "sourceUris": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            },
+            "maxItems": 255
+        },
+        "timestamp": {
+            "type": "integer",
+            "description": "Unix timestamp in milliseconds",
+            "minimum": 0
+        },
+        "basicMediaMetadata": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^[a-z]{1,32}$"
+            },
+            "additionalProperties": {
+                "type": "string",
+                "maxLength": 255
+            },
+            "maxProperties": 31
+        },
+        "viewTypes": {
+            "type": "array",
+            "items": {
+                "enum": [
+                    "audio",
+                    "video",
+                    "list",
+                    "image",
+                    "profile"
+                ]
+            },
+            "uniqueItems": true
+        },
+        "updateCID": {
+            "$ref": "https://schema.sfive.net/cid.json"
+        }
+    },
+    "additionalProperties": false
+}
